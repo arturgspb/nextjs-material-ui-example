@@ -1,0 +1,44 @@
+{
+  "name": "nextjs-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "NODE_ENV=development next dev",
+    "build": "NODE_ENV=production next build",
+    "start": "NODE_ENV=production next start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@material-ui/core": "^4.5.0",
+    "@material-ui/icons": "^4.2.1",
+    "@material-ui/lab": "^4.0.0-alpha.24",
+    "@material-ui/styles": "latest",
+    "@sentry/browser": "^5.6.2",
+    "immutability-helper": "^3.0.1",
+    "moment": "^2.24.0",
+    "moment-timezone": "^0.5.26",
+    "next": "9.0.4-canary.3",
+    "notistack": "^0.8.9",
+    "prop-types": "latest",
+    "react": "^16.8.6",
+    "react-contenteditable": "^3.3.1",
+    "react-dom": "^16.8.6",
+    "react-easy-state": "latest",
+    "react-event-listener": "latest",
+    "react-gtm-module": "^2.0.7",
+    "react-jsonschema-form": "^1.7.0",
+    "react-moment": "^0.9.2",
+    "react-rotating-text": "^1.4.1",
+    "sanitize-html": "latest",
+    "styled-components": "^4.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "^12.6.9",
+    "@types/react": "^16.8.24",
+    "@types/react-dom": "^16.8.5",
+    "typescript": "^3.5.3"
+  }
+}

@@ -1,0 +1,8 @@
+.next
+node_modules
+*.log
+out
+/.idea/*
+/.tmp/*
+/build/*
+!/.idea/runConfigurations/
